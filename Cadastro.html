@@ -1,24 +1,26 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tela de login</title>
+    <title>Tela de Cadatro</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="Cadastro.html">
+    <link rel="stylesheet" href="Login.html">
 </head>
-
 <body>
-    <div>
+    <div></div>
         <form>
             <fieldset>
-                <h1>Login</h1>
+                <h1>Cadastro</h1>
             </fieldset>
             <fieldset>
                 <p>
                     <label for="email">Email:</label>
                     <input type="email" id="email" name="Email_Usuario">
+                </p>
+                <p>
+                    <label for="email2">Confirmar Email:</label>
+                    <input type="email" id="email2" name="Confirmar_Email_USuario">
                 </p>
                 <p>
                     <label for="nome">Nome:</label>
@@ -28,10 +30,14 @@
                     <label for="senha">Senha:</label>
                     <input type="text" id="senha" name="Senha_Usuario">
                 </p>
+                <p>
+                    <label for="senha2">Confirmar Senha:</label>
+                    <input type="text" id="senha2" name="Confirmar_Senha_USuario">
+                </p>
             </fieldset>
             <fieldset>
-                <button id="Enviar">Enviar</button>
-                <button type="button" id="EnviarCadastro" onclick="window.location.href='Cadastro.html'">Não possuo conta</button>
+                <button id="Cadastrar">Cadastrar</button>
+                <button type="button" id="PossuoConta" onclick="window.location.href='Login.html'">Já possuo conta</button>
             </fieldset>
         </form>
     </div>
