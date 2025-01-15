@@ -101,7 +101,7 @@ a:hover{
     font-size: 20px;
     text-align: center;
     background-color: rgb(46,45,45);
-    margin-top: 34%;
+    margin-top: 38%;
     margin-left: 2%;
     width: 95%;
     height: 30%;
@@ -113,7 +113,7 @@ a:hover{
     font-size: 20px;
     text-align: center;
     background-color: rgb(46,45,45);
-    margin-top: 50%;
+    margin-top: 56%;
     margin-left: 2%;
     width: 95%;
     height: 30%;
@@ -293,7 +293,7 @@ a:hover{
 .Atualizar{
 
     position: absolute;
-    width: 50%;
+    width: 90%;
     height: 80%;
     top: 25%;
     left: 25%;
